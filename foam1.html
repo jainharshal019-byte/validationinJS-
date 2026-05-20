@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style19.css">
+<body>
+    <h3>REGISTER HERE!</h3>
+    <table align="center"> 
+        
+        <form action="" method="post" onsubmit="return validate()">
+
+            
+            <tr>
+
+                <td>
+               
+                <label for="fname">FIRST NAME</label> 
+                </td>
+             
+           
+           
+            <td>
+                <input type="text" name="fname" id="fname">
+                <span class="error" id="fe"></span>
+            </td>
+           
+            </tr>
+            <tr>
+            <td>
+                <label for="lname">LAST NAME</label>
+            </td>
+            <td>
+                <input type="text" name="lname" id="lname">
+                <span class="error" id="le"></span>
+            </td>
+            </tr> 
+            <tr>
+                <td>
+                    <label for="pass">PASSWORD</label>
+
+                </td>
+                <td>
+                    <input type="text" name="pass" id="pass">
+                    <span class="error" id="pe"></span>
+                </td>
+            </tr>
+            <tr>
+            <td>
+                <label for="email">EMAIL</label>
+            </td>
+            <td>
+                <input type="text" name="email" id="email">
+                <span class="error" id="ee"></span>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gen">GENDER</label>
+                </td>
+                <td>
+                    <input type="radio" name="gen" id="male">
+                    <span class="error" id="ge"></span>
+                    <label for="male">MALE</label>
+                 
+                    <input type="radio" name="gen" id="female">
+                    <span class="error" id="ge"></span>
+                
+                    <label for="female">FEMALE</label>
+                
+                     
+                   
+                </td>
+            </tr>
+            <tr>
+                
+                    <td>
+                        <label for="city">CITY</label>
+                    
+                    </td>
+                    <td>
+                    <select  value= "city" id="city">
+                      
+                    <option value="">SELECT CITY</option>
+                    <option value="">pune</option>
+                    <option value="" >bhopal</option>
+                    <option value="">nd</option>
+                    </select>
+                    <span class="error" id="ce"></span>
+                    </td>
+
+                
+            </tr>
+            <tr>
+                <td></td>
+            
+                <td>
+                    <input class="btn" type="submit" value="signup">
+                    <span class="error" id="se"></span>
+                </td>
+                            
+                </td>
+                                
+                </td>
+                </td>
+                </tr>
+        </form>
+        <script src="form.js"></script>
+    </table>
+</body>
+</html>
